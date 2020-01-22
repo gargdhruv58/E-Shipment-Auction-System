@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1052792282488",
+    "firebase_url": "https://e-shipment-auction-system1.firebaseio.com",
+    "project_id": "e-shipment-auction-system1",
+    "storage_bucket": "e-shipment-auction-system1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1052792282488:android:617bfae8676bd7261b7c8d",
+        "android_client_info": {
+          "package_name": "com.example.e_shipmentauctionsystem1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1052792282488-lclhij3hjfh03b5a407tcr5nrmfbnevo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.e_shipmentauctionsystem1",
+            "certificate_hash": "2122270e2e9e95a276c2080736c7888632e4c368"
+          }
+        },
+        {
+          "client_id": "1052792282488-5ivd38qp7it4p8bd3g84p13ptrk3npom.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4yM4WsSYQKm5BF02f2bZDOVBaekQN12A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1052792282488-5ivd38qp7it4p8bd3g84p13ptrk3npom.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

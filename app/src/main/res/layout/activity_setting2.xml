@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/wall4"
+    android:layout_height="match_parent"
+    tools:context=".setting2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:text="Setting"
+            android:textColor="#ffffff"
+            android:layout_marginTop="40dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/tview"
+            android:layout_below="@+id/textView"
+            android:layout_width="200dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="100dp"
+            android:textColor="#ffffff"
+            android:text="This Feature is available soon stay connected with us"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"/>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

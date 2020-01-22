@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall4"
+    tools:context=".transporter_2">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="190dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="10dp"
+            android:text=" Timer"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:layout_centerHorizontal="true"
+            />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="60sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textView"
+            android:text="00:00"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="300dp"
+            android:layout_height="66dp"
+            android:text="Current Wining Bid"
+            android:paddingLeft="40dp"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_below="@id/textView4"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints"/>
+        <TextView
+            android:id="@+id/CBid"
+            android:layout_width="270dp"
+            android:layout_height="58dp"
+            android:textColor="#ffffff"
+            android:hint="Wining Bid(in Rs)"
+            android:paddingLeft="40dp"
+            android:textSize="30sp"
+            android:layout_below="@id/bidname"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints"/>
+        <TextView
+            android:id="@+id/bidname"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:hint="Winner name"
+            android:textColor="#ffffff"
+            android:paddingLeft="40dp"
+            android:textSize="30sp"
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints"/>
+        <TextView
+            android:id="@+id/YBid"
+            android:layout_width="300dp"
+            android:layout_height="72dp"
+            android:text="Enter your Bid here"
+            android:paddingLeft="40dp"
+            android:layout_below="@id/CBid"
+            android:textSize="30sp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/Bid"
+            android:layout_width="140dp"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:hint="Bid Amount(Rs)"
+            android:inputType="number"
+            android:layout_below="@id/YBid"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="50dp"
+            tools:ignore="MissingConstraints"
+            />
+        <EditText
+            android:id="@+id/bid"
+            android:layout_width="140dp"
+            android:layout_height="51dp"
+            android:ems="10"
+            android:hint="No. of days"
+            android:inputType="number"
+            android:layout_below="@id/YBid"
+            android:layout_toRightOf="@id/Bid"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            tools:ignore="MissingConstraints"
+            />
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bid"
+
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Bid"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

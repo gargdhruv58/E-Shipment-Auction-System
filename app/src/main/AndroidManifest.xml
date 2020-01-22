@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.e_shipmentauctionsystem1">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/auction1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Loser_page"></activity>
+        <activity android:name=".winner_page" />
+        <activity android:name=".transporter_2" />
+        <activity android:name=".Transporter_1" />
+        <activity
+            android:name=".setting2"
+            android:parentActivityName=".Main2custActivity" />
+        <activity
+            android:name=".logout2"
+            android:parentActivityName=".Main2custActivity" />
+        <activity
+            android:name=".share2"
+            android:parentActivityName=".Main2custActivity" />
+        <activity
+            android:name=".payment2"
+            android:parentActivityName=".Main2custActivity" />
+        <activity
+            android:name=".contactus2"
+            android:parentActivityName=".Main2custActivity" />
+        <activity
+            android:name=".myproduct"
+            android:parentActivityName=".Main2custActivity" />
+        <activity
+            android:name=".home2"
+            android:parentActivityName=".Main2custActivity" />
+        <activity
+            android:name=".cusMain3Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Main2custActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".productdescActivity"
+            android:parentActivityName=".home2" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pop"
+            android:theme="@style/AppTheme.CustomTheme" />
+    </application>
+
+</manifest>

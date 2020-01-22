@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nac_chome"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nac_cproduct"
+            android:icon="@drawable/ic_add_a_photo_black_24dp"
+            android:title="My Product" />
+        <item
+            android:id="@+id/nac_cpayment"
+            android:icon="@drawable/ic_payment_black_24dp"
+            android:title="Payment Mode" />
+        <item
+            android:id="@+id/nac_ctool"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nac_clogout"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Logout" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nac_cshare"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nac_ccontactus"
+                android:icon="@drawable/ic_contact_mail_black_24dp"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="3pt"
+    android:background="#d4d3d3"
+    tools:context=".MainActivity">
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="Search Here"
+        android:iconifiedByDefault="false"
+        android:id="@+id/searchview"
+        >
+    </SearchView>
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightyorange"
+        android:text="        Types of product"
+        android:paddingBottom="5dp"
+        android:layout_marginBottom="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="36sp" />
+
+    <ListView
+        android:id="@+id/lvlist"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#d4d3d3"
+        android:dividerHeight="9dp" />
+</LinearLayout>
